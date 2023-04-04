@@ -1,12 +1,12 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.XYZ" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.Class4" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">@color/color_primary</item>
         <item name="colorPrimaryDark">@color/color_primary_dark</item>
         <item name="colorAccent">@color/color_accent</item>
     </style>
 
-    <style name="ToolbarTheme" parent="Theme.XYZ">
+    <style name="ToolbarTheme" parent="style/Theme.Class4">
         <item name="android:background">@color/color_primary</item>
         <item name="android:textColorPrimary">@color/white</item>
         <item name="android:textColorSecondary">@color/white</item>
